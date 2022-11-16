@@ -1,8 +1,8 @@
 body{
     font-family: 'Times New Roman', serif;
     padding: 0px;
-    max-width: 65%;
     margin: 0px auto;
+    width: 800px;
     border-left: 0.5px solid #eaeded8e;
     border-right: 0.5px solid #eaeded8e;
 }
@@ -14,22 +14,32 @@ nav {
 }
 
 .nav-btns {
-    margin: 20px;
+    margin: 20px 50px 5px 20px;
+}
+
+#four {
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+/* .four {
+    border-right: 1.5px solid #afb2b27b;
+} */
+
+.signup {
+    margin-left: 30px;
+    margin-right: -5px;
 }
 
 .minimal {
     margin: 0px 20px 0px 40px;
     border-right: 1.5px solid #afb2b27b;
-    padding: 5px;
+    padding: 5px 5px 0px;
 }
-
-/* #contactus {
-    border-right: 1.5px solid #afb2b27b;
-} */
 
 a {
     text-decoration: none;
-    color: black;
+    color: #6d6d6d;
     font-size: 10px;
 }
 
@@ -60,6 +70,7 @@ a {
 
 .mid-btn {
     margin-left: 12px;
+    color: #000000;
 }
 
 .arrow {
@@ -80,7 +91,7 @@ a {
     float: left;
     justify-content: space-between;
     width: 430px;
-    height: 400px;
+    height: 350px;
 }
 
 .logos {
@@ -89,12 +100,11 @@ a {
     width: 250px;
 }
 
-.choosing {
-    word-spacing: 10px;
-    margin: 150px 330px 0px ;
-    width: 500px;
+#choosing {
+    word-spacing: 5px;
     font-size: 25px;
-    display: block
+    margin: 90px auto 0px;
+    text-align: center;
 }
 
 .footer {
@@ -102,7 +112,7 @@ a {
     justify-content: space-between;
     width: 600px;
     padding: 15px;
-    margin: 10px 150px;
+    margin: 10px auto;
 }
 
 .office {
