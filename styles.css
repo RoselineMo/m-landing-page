@@ -1,0 +1,138 @@
+body{
+    font-family: 'Times New Roman', serif;
+    padding: 0px;
+    max-width: 65%;
+    margin: 0px auto;
+    border-left: 0.5px solid #eaeded8e;
+    border-right: 0.5px solid #eaeded8e;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #afb2b27b;
+}
+
+.nav-btns {
+    margin: 20px;
+}
+
+.minimal {
+    margin: 0px 20px 0px 40px;
+    border-right: 1.5px solid #afb2b27b;
+    padding: 5px;
+}
+
+/* #contactus {
+    border-right: 1.5px solid #afb2b27b;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.green {
+    border: 1px solid #004d00;
+    background-color: #004d00;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+}
+
+.txt1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.txt2 {
+    font-size: 9px;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+}
+
+.allmidbtns {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.mid-btn {
+    margin-left: 12px;
+}
+
+.arrow {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1px;
+    margin: 6px;
+}
+
+.bigimage {
+    height: 300px;
+    width: 300px;
+    margin: -50px 10px 0px 70px;
+}
+
+.fullmain {
+    display: grid;
+    float: left;
+    justify-content: space-between;
+    width: 430px;
+    height: 400px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.choosing {
+    word-spacing: 10px;
+    margin: 150px 330px 0px ;
+    width: 500px;
+    font-size: 25px;
+    display: block
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding: 15px;
+    margin: 10px 150px;
+}
+
+.office {
+    border: 1px solid #004d00;
+    background-color: #004d00;
+    color: white;
+}
+
+section {
+    padding: 28px;
+}
+
+.logos {
+    margin: 15px 0px;
+}
+
+.hand-plant, .garden-pot, .home-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.home-icon{
+    height: 28px;
+    width: 28px;
+}
+
+.plantp {
+    font-size: 10px;
+}
+
+.ptxt {
+    color: #6d6d6d;
+}
